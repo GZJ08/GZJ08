@@ -1,0 +1,65 @@
+body {
+    color:white;
+    background:#005452;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px #1ed4bc;
+    padding: 10px;
+    font-size: 33px;
+    color:#1ed4bc;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+iframe {
+    border: solid 2px #1ed4bc;   
+}
+
+section {
+    background: #003534;
+    padding: 20px;
+    font-family: "Bree Serif", serif;
+    
+}
+
+header2 {
+    padding: 10px;
+    font-size: 15px;
+    color: #00c4c0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.videos {
+display: flex;
+}
+
+img {
+ height: 180;
+ border: solid 5px #005452;
+}
+
+.categoria {
+    display: flex;
+    overflow-x: auto;
+}
+
+h2 {
+    border: solid 5px #003534;
+}
+
+.videos img {
+opacity: 0.7;
+}
+
+.videos img:hover {
+    opacity: 1;
+    height: 190;
+    border: solid 5px #1ed4bc;   
+    }
+
+    .titulo {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+        border-top: solid 2px #1ed4bc;
+}
